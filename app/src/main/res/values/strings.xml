@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Skye</string>
+    <string name="text_psyche">Skye</string>
+    <string name="analisa_desc">Pilih yang benar-benar sesuai dengan kondisi kulit Anda saat ini</string>
+    <string name="btn_result">Lihat Hasil</string>
+    <string name="gejala1">Mudah berjerawat</string>
+    <string name="gejala2">Terdapat banyak komedo</string>
+    <string name="gejala3">Pori pori terlihat jelas terbuka</string>
+    <string name="gejala4">Kasar</string>
+    <string name="gejala5">Terlihat bersisik</string>
+    <string name="gejala6">Berminyak di area T-zone (dagu, dahi, hidung)</string>
+    <string name="gejala7">Area pipi dan rahang saja yang kering</string>
+    <string name="gejala8">Kemerahan pada kulit</string>
+    <string name="gejala9">Kulit gatal</string>
+    <string name="gejala10">Sering mengalami alergi pada zat tertentu</string>
+    <string name="desc_illustration">analisa wajah</string>
+    <string name="btn_start">Deteksi kulitmu sekarang</string>
+    <string name="btn_rekomendasi">Lihat Rekomendasi Produk</string>
+    <string name="btn_redirect">Menuju Toko</string>
+    <string name="home_desc">Hai ladies! kulitmu memiliki memori. Dalam sepuluh, dua puluh, tiga puluh tahun dari sekarang, kulitmu akan menunjukkan hasil bagaimana itu dirawat hari ini. Jadi perlakukan dengan baik dan penuh hormat.</string>
+    <string name="diagnosaHead">ini head diagnosa</string>
+    <string name="diagnosaHasil">Hasil analisis</string>
+    <string name="rekomendasihead">Rekomendasi Produk Kecantikan</string>
+    <string name="rekomendasihasil">Dalam memilih produk kecantikan, kita harus berhati hati karena saat ini sudah banyak produk kecantikan abal abal dengan klaim yang sangat menggiurkan namun akan menimbulkan efek samping yang berbahaya bagi kesehatan kita. Klik tombol di bawah ini untuk menemukan produk yang sesuai dengan kondisi kulitmu.</string>
+
+</resources>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalisaGejala">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/psyche_illustration"
+                android:layout_width="200dp"
+                android:layout_height="148.95dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:contentDescription="@string/desc_illustration"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/undraw_children_4rtb" />
+
+            <TextView
+                android:id="@+id/textDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:text="@string/analisa_desc" />
+
+            <CheckBox
+                android:id="@+id/gejala1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala1"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala2"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala3"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala4"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala5"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala6"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala7"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala8"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala9"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/gejala10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/montserrat_light"
+                android:text="@string/gejala10"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btn_hasil_analisa"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/bg_btn"
+                android:fontFamily="@font/montserrat_regular"
+                android:textColor="@android:color/white"
+                android:text="@string/btn_result" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
